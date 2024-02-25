@@ -1,0 +1,152 @@
+* {
+ margin : 0 ;
+ padding : 0 ;
+ box-sizing : border-box ;
+ font-family : 'Gilroy', sans-serif;
+}
+
+html ,body {
+    height: 100vh;
+    width: 100vw;
+}
+#main {
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+    position: relative ;
+    padding-top: 0.1px ;
+}
+
+#nav {
+    /* background-color: crimson; */
+    height: 11vh;
+    width: 100vw;
+    margin-top: 2vh;
+    border-top: 0.15vw solid black ;
+    border-bottom: 0.15vw solid black ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav h1 {
+    /* background-color: aqua; */
+    height: 10vh;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Monument Extended;
+    font-size: 3.7vw;
+    letter-spacing: -0.2vw;
+}
+
+#nav h2 {
+    /* background-color: aqua; */
+    font-size: 1.35vw;
+    height: 11vh;
+    width: 18vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 0.15vw solid black ;
+    font-weight: 545;
+}
+ .gg-search {
+ box-sizing: border-box;
+ position: relative;
+ display: block;
+ transform: scale(var(--ggs,1));
+ width: 20px;
+ height: 20px;
+ border: 2px solid;
+ border-radius: 100%;
+ margin-left: -9px;
+ margin-top: -10px
+}
+
+.gg-search::after {
+ content: "";
+ display: block;
+ box-sizing: border-box;
+ position: absolute;
+ border-radius: 3px;
+ width: 2px;
+ height: 15px;
+ background: currentColor;
+ transform: rotate(-45deg);
+ top: 13px;
+ left: 20px;
+} 
+
+#nav h2:nth-last-child(1){
+    border-right: none;
+    width: 12vw;
+}
+
+#nav h2:nth-last-child(2){
+    width: 25vw;
+
+}
+#center {
+    /* background-color: crimson; */
+    height: 95vh;
+    width: 100vw;
+    padding: 2vw 5vw;
+    position: relative;
+}
+#content {
+    /* background-color: aqua; */
+    position: relative;
+    height: 100%;  
+    width: 100%;  
+}
+#content video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+#overlay1 {
+    position: absolute;
+    height: 40vh;
+    width: 90vw;
+    bottom: 0;
+    background-color: rgba(0, 0, 0,0.5);
+    padding: 4vw;
+}
+
+#over1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 4vw;
+}
+
+#over1 h1 {
+    font-family: Monument Extended;
+    font-weight: 900;
+    color: white;
+    font-size: 3vw;
+}
+#over1 h2 {
+    /* font-family: Monument Extended; */
+    font-weight: 900;
+    color: white;
+    font-size: 1.2vw;
+    border: white 0.1vw solid;
+    padding: 2.5vw;
+    border-radius: 50%;
+}
+
+#over2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     border-top: white 0.1vw solid;
+}
+#over2 h2 {
+    /* font-family: Monument Extended; */
+    color: white;
+    padding-top: 2vw;
+}
