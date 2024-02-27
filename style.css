@@ -12,7 +12,7 @@ html ,body {
 #main {
     height: 100vh;
     width: 100vw;
-    background-color: bisque;
+    background-color: white;
     position: relative ;
     padding-top: 0.1px ;
 }
@@ -92,7 +92,7 @@ html ,body {
     /* background-color: crimson; */
     height: 95vh;
     width: 100vw;
-    padding: 2vw 5vw;
+    padding: 3vw 5vw;
     position: relative;
 }
 #content {
@@ -114,6 +114,7 @@ html ,body {
     bottom: 0;
     background-color: rgba(0, 0, 0,0.5);
     padding: 4vw;
+    mix-blend-mode: overlay;
 }
 
 #over1 {
@@ -149,4 +150,49 @@ html ,body {
     /* font-family: Monument Extended; */
     color: white;
     padding-top: 2vw;
+}
+
+#scroll {
+    height: 28vh;
+    width: 100vw;
+    /* background-color: tomato; */
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#container
+{
+    display: inline-block;
+    height: 100%;
+    width: 140%;
+    /* background-color: turquoise; */
+    padding: 0.4vw;
+    animation-name: animate ;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* overflow: hidden;    */
+}
+#container img {
+    /* display: none; */
+    height: 22vh;
+    width: 22vh;
+    border-radius: 50%;
+    margin: 0.9vh;
+    object-fit: cover;
+}
+
+@keyframes animate {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+    
+}
+
+#page2 {
+    height: 100vh;
+    width: 100vw;
 }
