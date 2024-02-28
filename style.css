@@ -164,14 +164,20 @@ html ,body {
 {
     display: inline-block;
     height: 100%;
-    width: 140%;
+    width: 123vw;
     /* background-color: turquoise; */
     padding: 0.4vw;
     animation-name: animate ;
-    animation-duration: 10s;
-    animation-timing-function: linear;
+    animation-duration: 12s;
+    animation-timing-function:linear;
     animation-iteration-count: infinite;
-    /* overflow: hidden;    */
+    animation-play-state: play;
+    overflow: hidden;   
+    transition: all 0.1s;
+}
+#container img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 #container img {
     /* display: none; */
