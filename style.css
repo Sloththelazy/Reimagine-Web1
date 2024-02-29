@@ -155,6 +155,7 @@ html ,body {
 #scroll {
     height: 28vh;
     width: 100vw;
+    /* margin-top: 10vw; */
     /* background-color: tomato; */
     white-space: nowrap;
     overflow-x: hidden;
@@ -164,7 +165,7 @@ html ,body {
 {
     display: inline-block;
     height: 100%;
-    width: 123vw;
+    width: 140vw;
     /* background-color: turquoise; */
     padding: 0.4vw;
     animation-name: animate ;
@@ -198,7 +199,102 @@ html ,body {
     
 }
 
+
+#alphabets {
+    margin-top: 1.5vw;
+    margin-bottom: 5vw;
+    height: 12vh;
+    width: 100vw;
+    padding-left: 10vh;
+    padding-right: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    font-family: 'Gilroy-Italic';
+    border-top: 2.5px solid black;
+    border-bottom: 2.5px solid black;
+}
+
+#alphabets h3 {
+    font-size: 3vw;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-style: italic;
+    padding: 0.9vw;
+    margin-left: 0.5vw;
+     transition: all 0.5s;
+}
+
+#alphabets h3:hover {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+
+#alphabets h4 {
+    font-size: 1vw;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-style: italic;
+    padding: 0.3vw;
+    transition: all 0.5s;
+}
+
+#alphabets h4:hover {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    scale: 1.7;
+}
+
 #page2 {
     height: 100vh;
     width: 100vw;
+}
+
+#images {
+    width: 100vw;
+    height: 130vh;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2-part1 img {
+    height: 110vh;
+    width: 50vw;
+    padding: 5vw;
+    object-fit: cover;
+    /* background-color: black; */
+    transition: all 0.5s ease-in-out;
+    top: 2vw;
+}
+#page2-part1 img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+#page2-part2{
+    height: 110vh;
+    width: 50vw;
+    /* background-color: black; */
+    padding: 5vw;
+}
+
+#page2-part2 img {
+    height: 70vh;
+    width: 60vh;
+    object-fit: cover;
+    /* background-color: black; */
+    transition: all 0.5s ease-in-out;
+}
+
+#page2-part2 img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
