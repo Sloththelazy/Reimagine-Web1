@@ -295,6 +295,7 @@ html ,body {
 }
 
 #page2-part2 img:hover {
+    
     transform: scale(1.1);
     transition: all 0.5s;
 }
