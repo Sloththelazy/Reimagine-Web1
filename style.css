@@ -165,7 +165,7 @@ html ,body {
 {
     display: inline-block;
     height: 100%;
-    width: 140vw;
+    width: 129vw;
     /* background-color: turquoise; */
     padding: 0.4vw;
     animation-name: animate ;
@@ -253,49 +253,90 @@ html ,body {
 }
 
 #page2 {
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
+    /* background-color: aqua; */
+    display: flex;
 }
 
-#images {
-    width: 100vw;
-    height: 130vh;
-    /* background-color: blue; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#page2-part1 {
+    height: 90%;
+    width: 50%;
+    margin-left: 5vw;
+    /* background-color: crimson; */
+
 }
+
 #page2-part1 img {
-    height: 110vh;
-    width: 50vw;
-    padding: 5vw;
+    height: 100%;
+    width: 100%;
+    padding: 5vh;
     object-fit: cover;
-    /* background-color: black; */
-    transition: all 0.5s ease-in-out;
-    top: 2vw;
+    transition: ease-out 0.4s;
 }
+
 #page2-part1 img:hover {
     transform: scale(1.1);
-    transition: all 0.5s;
+    filter: drop-shadow(0.7vw 0.7vw 0.7vw black);
 }
 
-#page2-part2{
-    height: 110vh;
-    width: 50vw;
-    /* background-color: black; */
-    padding: 5vw;
+#page2-part2 {
+    height: 90%;
+    width: 40%;
+    margin-right: 5vw;
+    /* background-color: blue; */
 }
 
 #page2-part2 img {
-    height: 70vh;
-    width: 60vh;
+    height: 75%;
+    width: 95%;
+    padding: 5vh;
     object-fit: cover;
-    /* background-color: black; */
-    transition: all 0.5s ease-in-out;
+    transition: ease-out 0.4s;
+}
+#page2-part2 img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0.7vw 0.7vw 0.7vw black);
 }
 
-#page2-part2 img:hover {
-    
-    transform: scale(1.1);
-    transition: all 0.5s;
+#textArea {
+    display: flex;
+}
+
+#hannah {
+    font-family: Monument Extended;
+    font-size: 1.3vw;
+    line-height: 1.2;
+    font-weight: 900;
+    color: black;
+    text-align: left;
+    padding-left: 2vw;
+    padding-bottom: 5vw;
+}
+
+#Small {
+        font-family: "Gilroy-Medium" , sans-serif;
+        font-size: 0.9vw;
+        margin-left: 3vw;
+        text-align: left;
+        line-height: 1.4;
+}
+
+#Vogue {
+     font-family: Monument Extended;
+    font-size: 3vw;
+    line-height: 1.1;
+    font-weight: 900;
+    color: black;
+    text-align: left;
+    padding-left: 3vw;
+    padding-bottom: 5vw;
+    padding-top: 2vw;
+}
+
+#page3 {
+    height: 110vh;
+    width: 100vw;
+    background-color: crimson;
+
 }
