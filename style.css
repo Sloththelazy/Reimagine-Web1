@@ -39,6 +39,7 @@ html ,body {
     font-family: Monument Extended;
     font-size: 3.7vw;
     letter-spacing: -0.2vw;
+
 }
 
 #nav h2 {
@@ -165,7 +166,7 @@ html ,body {
 {
     display: inline-block;
     height: 100%;
-    width: 129vw;
+    width: auto;
     /* background-color: turquoise; */
     padding: 0.4vw;
     animation-name: animate ;
@@ -226,6 +227,7 @@ html ,body {
     padding: 0.9vw;
     margin-left: 0.5vw;
      transition: all 0.5s;
+     border-radius: 50%;
 }
 
 #alphabets h3:hover {
@@ -243,6 +245,7 @@ html ,body {
     font-style: italic;
     padding: 0.3vw;
     transition: all 0.5s;
+    border-radius: 50%;
 }
 
 #alphabets h4:hover {
